@@ -19,7 +19,7 @@ class CategorySeeder extends Seeder
         Category::create([
             'name' => 'Summer Clothes',
             'description' => 'She’s here…Summer 2021!',
-            'photo' => '1.png',
+            'photo' => 'https://i.pinimg.com/564x/6e/fb/43/6efb43fe6ce2225bc9f0b8706dd3d365.jpg',
             'tax' => '10',
             'unit' => 'chiếc',
             'created_at' => new \dateTime,
@@ -28,7 +28,7 @@ class CategorySeeder extends Seeder
         Category::create([
             'name' => 'Winter Clothes',
             'description' => 'Discover the beauty of winter.',
-            'photo' => '2.png',
+            'photo' => 'https://img.joomcdn.net/31732438b745f05b4eb4da7bc1fed354768d4942_original.jpeg',
             'tax' => '10',
             'unit' => 'chiếc',
             'created_at' => new \dateTime,
@@ -37,7 +37,7 @@ class CategorySeeder extends Seeder
         Category::create([
             'name' => 'Accessories',
             'description' => 'Be the Inspiration',
-            'photo' => '3.png',
+            'photo' => 'https://media.istockphoto.com/photos/mens-accessories-organized-on-table-in-knolling-arrangement-picture-id638385938',
             'tax' => '10',
             'unit' => 'chiếc',
             'created_at' => new \dateTime,

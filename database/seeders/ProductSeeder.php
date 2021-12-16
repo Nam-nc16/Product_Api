@@ -22,7 +22,7 @@ class ProductSeeder extends Seeder
             'brand' => 'Gucci',
             'price' => '1000',
             'category_id' => '1',
-            'image'=>'anh1.png',
+            'image'=>'https://shopgiayreplica.com/wp-content/uploads/2020/08/dep-gucci-web-slide-sandal-black-800x600.jpg',
             'created_at' => new \dateTime,
             'updated_at' => new \dateTime,
         ]);
@@ -32,7 +32,7 @@ class ProductSeeder extends Seeder
             'brand' => 'Gucci',
             'price' => '2000',
             'category_id' => '4',
-            'image'=>'anh2.png',
+            'image'=>'https://shopgiayreplica.com/wp-content/uploads/2020/08/dep-gucci-web-slide-sandal-black-800x600.jpg',
             'created_at' => new \dateTime,
             'updated_at' => new \dateTime,
         ]);
@@ -42,7 +42,7 @@ class ProductSeeder extends Seeder
             'brand' => 'Gucci',
             'price' => '3000',
             'category_id' => '2',
-            'image'=>'anh3.png',
+            'image'=>'https://shopgiayreplica.com/wp-content/uploads/2020/08/dep-gucci-web-slide-sandal-black-800x600.jpg',
             'created_at' => new \dateTime,
             'updated_at' => new \dateTime,
         ]);
@@ -52,7 +52,7 @@ class ProductSeeder extends Seeder
             'brand' => 'Gucci',
             'price' => '4000',
             'category_id' => '1',
-            'image'=>'anh4.png',
+            'image'=>'https://shopgiayreplica.com/wp-content/uploads/2020/08/dep-gucci-web-slide-sandal-black-800x600.jpg',
             'created_at' => new \dateTime,
             'updated_at' => new \dateTime,
         ]);
@@ -62,7 +62,7 @@ class ProductSeeder extends Seeder
             'brand' => 'Gucci',
             'price' => '5000',
             'category_id' => '1',
-            'image'=>'anh5.png',
+            'image'=>'https://shopgiayreplica.com/wp-content/uploads/2020/08/dep-gucci-web-slide-sandal-black-800x600.jpg',
             'created_at' => new \dateTime,
             'updated_at' => new \dateTime,
         ]);
@@ -72,7 +72,7 @@ class ProductSeeder extends Seeder
             'brand' => 'Gucci',
             'price' => '6000',
             'category_id' => '3',
-            'image'=>'anh6.png',
+            'image'=>'https://shopgiayreplica.com/wp-content/uploads/2020/08/dep-gucci-web-slide-sandal-black-800x600.jpg',
             'created_at' => new \dateTime,
             'updated_at' => new \dateTime,
         ]);
@@ -82,7 +82,7 @@ class ProductSeeder extends Seeder
             'brand' => 'Gucci',
             'price' => '7000',
             'category_id' => '4',
-            'image'=>'anh7.png',
+            'image'=>'https://shopgiayreplica.com/wp-content/uploads/2020/08/dep-gucci-web-slide-sandal-black-800x600.jpg',
             'created_at' => new \dateTime,
             'updated_at' => new \dateTime,
         ]);
