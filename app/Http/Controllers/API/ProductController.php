@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\API;
 
+use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
@@ -18,9 +19,11 @@ class ProductController extends BaseController
         $result = Product::select('id', 'name', 'detail', 'brand', 'price', 'category_id', 'image');
         $name = $request->get('name');
         $price = $request->get('price');
+
         $price_max = $request->get('price_max');
         $price_desc = $request->get('price_desc');
         $name_desc = $request->get('name_desc');
+        $catename = $request->get('catename');
         if ($name) {
             $result = $result->where('name', 'like', '%' . $name . '%');
         }
@@ -42,13 +45,17 @@ class ProductController extends BaseController
         if ($name_desc == 2) {
             $result = $result->orderBy('name', 'asc');
         }
-        
+        if ($catename){
+            $cate_id = Category::where('name','like','%' .$catename.'%')->pluck('id');
+            $result = $result->where('category_id','=',$cate_id);
+        }
         
         if (count($result->get()) > 0) {
             return $this->sendResponse($result->get(), 'Products retrieved successfully.');
         } else {
             return $this->sendError('Cannot find Products');
         }
+
     }
 
     /**
