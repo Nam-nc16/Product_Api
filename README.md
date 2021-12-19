@@ -4,4 +4,5 @@ then config .env file<br>
 -Step 3: php artisan storage:link<br>
 php artisan migrate<br>
 php artisan db:seed<br>
+php artisan passport:install
 -Step 4: php artisan serve<br>
