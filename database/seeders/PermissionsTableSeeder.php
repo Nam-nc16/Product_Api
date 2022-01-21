@@ -105,6 +105,22 @@ class PermissionsTableSeeder extends Seeder
                 'name' => 'Banner Delete',
                 'permission' => 'banner_delete'
             ],
+            [
+                'name' => 'Product Index',
+                'permission' => 'product_index'
+            ],
+            [
+                'name' => 'Product Create',
+                'permission' => 'product_create'
+            ],
+            [
+                'name' => 'Product Edit',
+                'permission' => 'product_edit'
+            ],
+            [
+                'name' => 'Product Delete',
+                'permission' => 'product_delete'
+            ],
         ];
 
         foreach ($arrayPermission as $permission) {

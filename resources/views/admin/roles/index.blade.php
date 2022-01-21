@@ -34,11 +34,11 @@
                                     <td>{{$role->id}}</td>
                                     <td>{{$role->name}}</td>
                                     <td>
-                                        @can('role_index')
-                                            <a class="btn btn-info" href="/admin/roles/show/{{$role->id}}">
-                                                <i class="fas fa-eye"></i>
-                                            </a>
-                                        @endcan
+{{--                                        @can('role_index')--}}
+{{--                                            <a class="btn btn-info" href="/admin/roles/show/{{$role->id}}">--}}
+{{--                                                <i class="fas fa-eye"></i>--}}
+{{--                                            </a>--}}
+{{--                                        @endcan--}}
                                         @can('role_edit')
                                             <a class="btn btn-primary" href="/admin/roles/edit/{{$role->id}}">
                                                 <i class="fas fa-edit"></i>
