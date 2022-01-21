@@ -36,11 +36,11 @@
                                     <td>{{$products->name}}</td>
                                     <td>{{$products->detail}}</td>
                                     <td>
-                                        @can('product_index')
-                                            <a class="btn btn-info" href="/admin/products/show/{{$products->id}}">
-                                                <i class="fas fa-eye"></i>
-                                            </a>
-                                        @endcan
+{{--                                        @can('product_index')--}}
+{{--                                            <a class="btn btn-info" href="/admin/products/show/{{$products->id}}">--}}
+{{--                                                <i class="fas fa-eye"></i>--}}
+{{--                                            </a>--}}
+{{--                                        @endcan--}}
                                         @can('product_edit')
                                             <a class="btn btn-primary" href="/admin/products/edit/{{$products->id}}">
                                                 <i class="fas fa-edit"></i>

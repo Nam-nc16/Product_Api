@@ -36,11 +36,11 @@
                                     <td>{{$permission->name}}</td>
                                     <td>{{$permission->permission}}</td>
                                     <td>
-                                        @can('permission_index')
-                                            <a class="btn btn-info" href="/admin/permissions/show/{{$permission->id}}">
-                                                <i class="fas fa-eye"></i>
-                                            </a>
-                                        @endcan
+{{--                                        @can('permission_index')--}}
+{{--                                            <a class="btn btn-info" href="/admin/permissions/show/{{$permission->id}}">--}}
+{{--                                                <i class="fas fa-eye"></i>--}}
+{{--                                            </a>--}}
+{{--                                        @endcan--}}
                                         @can('permission_edit')
                                             <a class="btn btn-primary" href="/admin/permissions/edit/{{$permission->id}}">
                                                 <i class="fas fa-edit"></i>

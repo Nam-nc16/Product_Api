@@ -43,11 +43,11 @@
                                     @endforeach
                                 </td>
                                 <td>
-                                    @can('user_index')
-                                        <button type="button" value="{{$user->id}}" class="show btn btn-info" >
-                                        <i class="fas fa-eye"></i>
-                                    </button>
-                                    @endcan
+{{--                                    @can('user_index')--}}
+{{--                                        <button type="button" value="{{$user->id}}" class="show btn btn-info" >--}}
+{{--                                        <i class="fas fa-eye"></i>--}}
+{{--                                    </button>--}}
+{{--                                    @endcan--}}
                                     @can('user_edit')
                                     <a class="btn btn-primary" href="/admin/users/edit/{{$user->id}}">
                                         <i class="fas fa-edit"></i>
